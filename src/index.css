@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Shinthia";
+  src: local("Shinthia"), url("/src/assets/Shinthia.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.font-Shintia {
+  font-family: Shinthia;
+}
